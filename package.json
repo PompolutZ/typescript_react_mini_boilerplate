@@ -1,0 +1,24 @@
+{
+  "name": "typescript_react_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate solution for ReactJS SPA in typescript",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "react",
+    "webpack"
+  ],
+  "author": "olo",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2"
+  }
+}
