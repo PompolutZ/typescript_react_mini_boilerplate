@@ -4,7 +4,9 @@
   "description": "Boilerplate solution for ReactJS SPA in typescript",
   "main": "./dist/bundle.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "node server.js"
   },
   "keywords": [
     "typescript",
@@ -18,7 +20,10 @@
     "react-dom": "^15.3.2"
   },
   "devDependencies": {
+    "@types/react": "^0.14.39",
+    "@types/react-dom": "^0.14.17",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.2"
+    "ts-loader": "^0.8.2",
+    "webpack-dev-server": "^1.16.2"
   }
 }
